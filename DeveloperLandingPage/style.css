@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.sect1{
+    background-image: url(xndmxrfhliweofif9jty.webp);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 180px;
+    padding-left: 76px;
+}
+.sect1 h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+.lg_name{
+    font-size: 90px;
+    font-weight: 400;
+}
+.sect2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.sect2 h2{
+    font-weight: 400;
+    font-size: 76px;
+}
+.sect2 h2 span{
+    font-size: 115px;
+}
+.white_box{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.card_cont{
+    padding: 20px;
+}
+.card_cont h5{
+    font-size: 20px;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+    transition: 0.2s ease-in-out;
+}
+.bot_sec{
+    display: flex;  
+}
+.contact{
+    background-color: hsla(100, 57%, 33%, 0.536);
+}
+.about{
+    background-color: brown;
+}
+.contact,.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+.contact p,.about p{
+    margin-bottom: 20px;
+}
+.contact h2,.about h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: large;
+}
