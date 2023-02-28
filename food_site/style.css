@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "roboto", sans-serif;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+nav{
+    box-shadow: 1px 5px 1px rgba(1,1,1,0.3);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 15px;
+    z-index: 50;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bar_icon{
+    font-size: 30px;
+}
+.hero{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+.hero_cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 512px;
+}
+.tag{
+    background-color: rgb(21, 82, 21);
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+}
+.hero_cont h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.hero_cont button{
+    background-color: rgb(226, 186, 113);
+    align-self: flex-start;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.feature{
+    max-width: 252px;
+    display: flex;
+    gap: 10px;
+    margin: 40px;
+}
+.fcont p{
+    font-size: small;
+}
+.fcont .kk{
+    padding-top: 10px;
+}
+.imag{
+    width: 70px;
+}
+.divder{
+    border: 1px solid rgb(88, 87, 87);
+    margin-bottom: 50px;
+}
+.omenu{
+    background-color: rgb(26, 102, 26);
+    color: white;
+    align-self: flex-start;
+    padding: 5px 10px;
+}
+.oomenu{
+    display: flex;
+    justify-content: center;
+}
+.emenu{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.grid1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.grid_cl{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+.grid_img{
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.grid_img:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+.bot_sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 100px;
+    background-color: rgb(172, 100, 49);
+    padding: 100px;
+}
+.bot_sect h4{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.follow_logo{
+    display:flex;
+    gap: 10px;
+}
+.follow_logo i{
+    font-size: 30px;
+}
+@media (max-width:786px){
+    .bot_sect{
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        gap: 10px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .bot_sect h4{
+        font-size: 20px;
+    }
+    .bot_sect p{
+        font-size: small;  
+    }
+    .follow_logo i{
+        font-size: 20px;
+    }
+    .hero{
+        flex-direction: column;
+        gap: 20px ;
+    }
+    .hero_img{
+        display: flex;
+        justify-content: center;
+    }
+    .hero_img img{
+        width: 80%;
+    }
+    .hero_cont{
+        gap: 10px;
+        padding: 10px;
+    }
+    .hero_cont h1{
+        font-size: 32px;
+    }
+    .features{
+        margin-top: 10px;
+        justify-content: left;
+    }
+    .feature{
+        margin: 10px;
+    }
+    .emenu{
+        margin-top: 20px;
+    }
+    .divder{
+        margin-bottom: 20px;
+    }
+    .emenu{
+        margin-bottom: 20px;
+    }
+}
