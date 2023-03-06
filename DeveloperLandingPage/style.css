@@ -78,6 +78,7 @@ html,body{
 }
 .contact{
     background-color: hsla(100, 57%, 33%, 0.536);
+    color: black;
 }
 .about{
     background-color: brown;
